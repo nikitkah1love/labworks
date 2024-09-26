@@ -109,7 +109,7 @@ resource "azurerm_windows_virtual_machine" "main" {
     sku       = "2022-datacenter-azure-edition"
     version   = "latest"
   }
-
+  custom_data = filebase64("startscript.ps1")
 
   boot_diagnostics {
     storage_account_uri = azurerm_storage_account.my_storage_account.primary_blob_endpoint
