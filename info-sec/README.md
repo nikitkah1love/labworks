@@ -6,9 +6,3 @@ This folder contains practical works related to Information Security Methods. It
 
 - Basic understanding of information security concepts.
 - Required software and tools (e.g., Python, OpenSSL).
-
-## Installation
-
-1. Clone the repository:
-   ```sh
-   git clone <repository-url>
